@@ -1,0 +1,5 @@
+1.Stacking :  same dat multiple classifiers :
+
+C1,C2,C3,C4 = original 
+check which clssfier is affecting .. and how much using m.regression
+

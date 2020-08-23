@@ -1,0 +1,113 @@
+PATTERN IDENTIFICATION AND AXIS TRANSFORM :
+
+We can transform the axis if we see any other patterns  o reduce the errors
+- Y to sqrt(y) has better R squared value and thus good to use.
+- Y to log (y )
+
+
+
+Influencial outlyer :
+That data point which can create false relation, screw the model , effect the r square value.
+
+
+H : On x - leverage 
+R: On Y - residual error
+
+cooks D : both h & x 
+
+
+
+H : Leverage : FOR OUT LYERS ALONG X AXIS 
+
+H = 1 + z(i) square / n
+
+z = dp - mean / variance 
+
+
+Summation of H for all i / n = avg h  
+********************************************************************************************************************************************
+- Leverage(H) for a point should be less than  "  2(avg(h))  "
+********************************************************************************************************************************************
+- f not its a influential outlyer
+
+
+
+Data points should not be too far in X axis - X leverage  
+Data points should not be too far for a single x in Y axis - Y leverage 
+
+
+Studentised Residual :
+
+Residual = predicted - actual 
+
+SResidual = e / sqrt(MSE (1-H)) , here e = actual - predicted , MSE  = total MSE of model 
+*********************************************************************************************************
+-2> SResidual >2 : Other than this is influential outlyer 
+*********************************************************************************************************
+
+
+Sresidual vs Leverage plot can say you about influential outlyers 
+
+***************************************************
+CooksD =  1/p * sqre(sreidual) * (h/1-h)
+***********************************************
+
+cooks > 1 outlyer 
+>0.5 <1 : verify 
+<0.5 : Its not an outlyer 
+*****************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,181 @@
+Multiple Variables : 
+- Y = A1X1+A2X2+A3X3+A4X4+....
+X1,X2,X3,X4 are all independent of each other .
+
+
+
+
+******************************************
+A lm output has following :
+
+- General Statistics 
+- Model statistics 
+- Variables(Feature) statistics
+
+
+************************************************************************************************
+************************************************************************************************
+
+General statistics :
+R square should be near 1 
+Adjusted R square 
+
+
+
+Model statistics : 
+F should be high 
+F = (SSR/df) / (sse/df)
+
+
+
+Variable statistics :
+
+Variable Contributing means : variable t value should be low : reject the null hypothesis (m =0)
+Variable not contributing : variable t value is high : accep the null hypothesis 
+
+***************************************************************************************************
+***************************************************************************************************
+
+Residual plot : / systamic error
+Ideally , Should be above and below zero , so that its mean is 0 
+
+If we change the intercept, residual plot shifts away from the 0 mean ie., residual error for each point shift by same value 
+
+So in case if residual plot is away from 0 mean try changing intercept values  
+
+ERRORS : 
+pred error (sse) = pred - data point 
+ssr = pred - mean y 
+sst = data - mean y 
+
+R square = ssr / sst 
+		 = 1- sse/sst 
+
+SSE = 0 is a good model. ie., R square near to 1 
+
+		 
+Adjusted R square:
+
+ssr/sst = 1 - sse /sst 
+		=  1 - (sse/n-k-1) / (sst/n-1)
+
+		= 1- MSE/MST 
+		
+***********************************
+
+When you keep on add more variables , the sse decreases, bcz u are capturing more variables  and figuring out better predictions for Y .
+
+So in adjusted  r square, sse decrease and n-k-1 decrease if we add more variables.Thus whole value increases or remains constant.
+
+THUS NEGOTIATING THE EFFECT OF DECREASED SSE WITH INCREASED DEGREES OF FREEDOM.
+
+********************************************************************************************************
+
+
+ADJUSTED R SQUARE COMPENSATES - ADDITION OF NEW VARIABLES :
+
+IE., artificila addition of variables can decrease sse which makes r square = 1 AND thus misleading. So we consider adjusted R square .
+
+ie., including the new variables into R square and thus compensating the decreased sse by increasing MSE .
+
+
+********************************************
+
+TRANSFORMATIONS  :
+
+
+If x and Y plot has higher residuals 
+ you can now tweak the x to sqrt(x) , sqre(x), log(x), 1/sqrt(x) : This is linear transformation 
+ 
+ Draw a circle on a grapgh with origin as centre . This gives the up ladder down ladder choice for variable transformation 
+ 
+ ****************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************
+
+CMP - REFERENCE DATA
+RPM : PEGA DATABASE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

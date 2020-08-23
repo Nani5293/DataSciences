@@ -1,0 +1,32 @@
+** Residual Plots ** 
+
+Means of residuals should be 0 
+Residuals should not have any corrrelation 
+Residuals should be in a normal dist
+
+
+** 
+
+QQ- residuals are Normal not
+Influential outlyers - Out side cooks D 1 
+0.5 -1 : Questionable points > If differ , why is special .
+<0.5 : Acceptable
+
+
+** 
+
+1 variable - 1 slope = Basic Model
+Deal with all slopes = Model 
+
+*** 
+Null Hypothesis :
+Model has no effect on predictor variable :
+No corelation : slope = 0 
+
+
+*** 
+
+
+
+
+

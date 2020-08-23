@@ -1,0 +1,7 @@
+stackin : 
+same train data 
+
+try multiple classifiers. 
+ops shud be identical)
+
+the majority wins !!

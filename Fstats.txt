@@ -1,0 +1,30 @@
+SSR  Err explained by model 
+SSE  Err unexplained by model 
+
+SSR/SSE >1 : F Test 
+
+
+R square : srr / sst = 1- sse/sst 
+
+R squared = 0.87 , 87 % variablity in data 
+
+Residual models :
+
+1- Should be homoscedastic
+- No outlyers 
+
+
+
+?** Transform data 
+Y > SqrtY  : Rsquared is improved 
+
+-  Better residual analysis 
+- 2 different estimates 
+
+
+SSE = yp - ya
+SSR = ym - sp 
+SST = ym - ya 
+
+
+If we change y  

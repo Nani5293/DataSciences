@@ -1,0 +1,43 @@
+- Statistics : 
+Mean, variance, degrees of freedom 
+Population, Sample 
+Random Variable Probability Distributions 
+	- Normal (Z)
+	- T (t)       - Means 
+	- F ()
+	- Chi square ()  - Variances 
+	
+pnorm(sample mean, null hypo on population mean , sample variances )
+		- Gives Cumulative probability of sample mean with given pop mean and variance 
+qnorm(probabaility of sample mean, null hypo on population mean, sample variance )
+		- Given sample mean for given cumulative probabaility with pop mean and variance 
+dnorm(sample mean, null hypo on pop mean , sample variance )
+	- Gives the probability for a sample mean with given pop mean and variance.
+
+
+BASICS :
+	Statistics 
+	
+REGRESSIONS: 
+	Linear 
+	Logistic
+	Timeseries 
+
+REGULARIZATIONS : 
+		Ridge & Lasso 
+	
+CLASSIFICATIONS / CLUSTERING :
+	Decision Trees
+	KMeans
+	KNN
+	
+BETTER PREDICTIONS : 	
+	Ensemblers 
+
+AI :	
+	TextMining
+***************
+R
+	
+
+-  

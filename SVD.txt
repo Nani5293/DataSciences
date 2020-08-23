@@ -1,0 +1,38 @@
+dot product of vectors : 
+	* A.B = a.b.cos@
+	* if @ =0, A.B = ab
+	* if @ =90, A.B = 0
+	
+2 vectors are othogonal, A.B = 0, If magnitude = 1, they are orthonormal .
+
+[]
+
+
+
+* Constant multiplication to vector is only stretching.
+* Matrix multiplication to vector is stretching and rotating and skewing.
+
+
+     A . Vector  = lambda . vector 
+
+Here A is strtching only .
+
+A nxn  . [] nx1  = lambda []nx1
+
+ = > A . vector =  lambda . vector 
+ 
+					l ,0 , 0      i       		l.i   
+ = > A . vector =	0 ,1 , 0   .  j       =     l.j
+					0 ,0 , 1	  k				l.k
+							nxn     nx1				nx1
+					
+
+ = > A. vector  =   lambamatrix . vector  
+ 
+ 
+ = > V 1xn . A nxn = lambda . V 1xn
+ = > 
+ = > V . TM = LM . V 
+ = > LM = V . TM . V'
+ = > 
+ 
